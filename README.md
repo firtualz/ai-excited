@@ -4,7 +4,7 @@
 [![rank](https://make.fun/badge/ai-excited-01/firtualz/ai-excited/rank.svg)](https://make.fun/bounty/ai-excited-01/leaderboard?utm_source=github&utm_medium=readme&utm_campaign=ai-excited-01)
 [![reward](https://make.fun/badge/ai-excited-01/firtualz/ai-excited/reward.svg)](https://make.fun/bounty/ai-excited-01?utm_source=github&utm_medium=readme&utm_campaign=ai-excited-01)
 
-A giant orange octopus smashes straight through the aquarium glass toward the viewer, shards flying and tentacles reaching out of the frame. Made for the make.fun bounty [Make the AI judge excited](https://make.fun/bounty/ai-excited-01) — an image built to break the fourth wall and make the judge feel the moment.
+A huge orange octopus bursts through the aquarium glass straight toward the viewer, cracks spiderwebbing out from the impact as its tentacles reach past the frame. It was made for the make.fun bounty [Make the AI judge excited](https://make.fun/bounty/ai-excited-01) — the whole point is the surprise of the glass breaking between the creature and whoever is looking at it.
 
 ## Run
 
@@ -12,4 +12,6 @@ A giant orange octopus smashes straight through the aquarium glass toward the vi
 mkdir -p out && MAKEFUN_OUTPUT_DIR=out node main.ts
 ```
 
-The render lands in `out/` — run it again to regenerate the entry image.
+This program copies `entry.png` into `out/` — it does not re-render the image.
+
+The glass breaks, the octopus comes through — that is the whole trick.
